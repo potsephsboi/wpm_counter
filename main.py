@@ -1,7 +1,4 @@
-from xmlrpc.client import FastParser
 from setup import *
-from helper import *
-
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
@@ -18,7 +15,7 @@ def main():
     
     score = 0
     start_time = time.time()
-    time_left = 10
+    time_left = 60
 
     user_text = ''
     user_word = FONT.render(user_text, True, BLACK, WHITE) 
